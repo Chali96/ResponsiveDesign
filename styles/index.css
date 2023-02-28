@@ -1,3 +1,31 @@
 .body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 30px;
+    gap: 20px;
+    color: #FFFF;
+}
+
+.links{
+    gap: 20px;
+    text-decoration: none;
+}
+
+.section {
+  
+    color: #FFFF;
+}
+
+.image{
+    width: 864px;
+    height: 486px;
 }
