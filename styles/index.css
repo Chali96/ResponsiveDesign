@@ -8,26 +8,29 @@
     font-style: normal;
     color: #FFFF;
 }
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 30px;
+    color: #FFFF;
+}
 .head{
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: -0.25px;
 }
-
-.header{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin: 30px;
-    gap: 20px;
-    color: #FFFF;
-}
 .nav-links{
     margin: 20px;
 }
+.links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
 .link{
-    margin: 25px;
+    margin: 15px;
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -59,16 +62,14 @@
 }
 .Fusce{
     font-weight: 400;
-font-size: 22px;
-line-height: 34px;
+    font-size: 22px;
+    line-height: 34px;
 }
 .image{
     height: 486px;
-width: 864px;
-border-radius: 0px;
-
+    max-width: 864px;
+    border-radius: 0px;
 }
-
 
 @media screen and (max-width: 320px) {
     .links {
@@ -111,8 +112,6 @@ border-radius: 0px;
         font-size: 36px;
     }
 }
-
-
 
 @media screen and (max-width: 700px) {
     .Fusce {
