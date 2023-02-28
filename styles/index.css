@@ -23,13 +23,16 @@
     gap: 20px;
     color: #FFFF;
 }
-
-.links{
-    gap: 20px;
+.nav-links{
+    margin: 20px;
+}
+.link{
+    margin: 25px;
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    color: #FFFF;
 }
 
 .container {
@@ -57,4 +60,8 @@ line-height: 34px;
 
 .image{
 
+}
+
+@media screen {
+    
 }
